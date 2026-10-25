@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">余兴才2024180548</string>
+
+    <!-- MainActivity -->
+    <string name="main_title">Activity 通信实验</string>
+    <string name="btn_pass_param">1. 正向传参</string>
+    <string name="btn_return_result">2. 返回结果</string>
+    <string name="btn_camera">3. 隐式调用相机</string>
+    <string name="btn_stopwatch">4. 秒表 StopWatch</string>
+    <string name="result_empty">暂无返回结果</string>
+    <string name="result_format">返回结果：%1$s</string>
+
+    <!-- FirstActivity（正向传参） -->
+    <string name="first_title">第一个二级 Activity（正向传参）</string>
+    <string name="received_param_prefix">接收到的参数：</string>
+    <string name="received_param_format">接收到的参数：%1$s</string>
+    <string name="pass_param_value">你好！这是从 MainActivity 正向传来的参数。</string>
+
+    <!-- SecondActivity（返回结果） -->
+    <string name="second_title">第二个二级 Activity（返回结果）</string>
+    <string name="input_hint">请输入要返回的内容</string>
+    <string name="btn_confirm">确定</string>
+    <string name="input_empty_toast">输入内容不能为空</string>
+
+    <!-- ThirdActivity（隐式调用相机） -->
+    <string name="third_title">第三个二级 Activity（隐式调用相机）</string>
+    <string name="btn_take_photo">拍照</string>
+    <string name="photo_desc">拍摄的照片</string>
+    <string name="no_camera">未找到可用的相机应用</string>
+
+    <!-- FourthActivity（StopWatch） -->
+    <string name="fourth_title">第四个二级 Activity（StopWatch）</string>
+    <string name="stopwatch_zero">00:00:00</string>
+    <string name="time_format">%1$02d:%2$02d:%3$02d</string>
+    <string name="btn_start">开始</string>
+    <string name="btn_pause">暂停</string>
+    <string name="btn_reset">重置</string>
+</resources>
